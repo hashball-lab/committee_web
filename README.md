@@ -1,5 +1,6 @@
 # committee_web
-Committee web code used for committee member local committing
+Committee web code used for committee member local committing.
+
 Steps are as follows.
 1. git clone https://github.com/hashball-lab/committee_web.git
 2. cd committee_web
