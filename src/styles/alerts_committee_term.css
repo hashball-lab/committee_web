@@ -1,0 +1,104 @@
+.alert_committee_term_title{
+    display: flex;
+    justify-content: flex-start;
+    width: 500px;
+    align-items: center;
+    margin-left: 20px;
+    color: #8a8a8a;
+    height: 30px;
+    margin-top: 10px;
+}
+.alert_committee_term{
+    display: flex;
+    justify-content: flex-start;
+    width: 500px;
+    align-items: center;
+    flex-direction: column;
+    height: 270px;
+    margin-top: 5px;
+    /* margin-bottom: 20px; */
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.alert_committee_term_tip{
+    display: flex;
+    justify-content: flex-start;
+    width: 460px;
+    align-items: center;
+    flex-direction: column;
+    height: 260px;
+    text-align: left;
+    margin-top: 10px;
+    color: #8a8a8a;
+    margin-left: 20px;
+    font-size: 12px;
+    overflow-y: auto;
+}
+.alert_committee_term_tip>li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.alert_stake_read_term{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 500px;
+    flex-direction: row;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: -25px;
+}
+.alert_stake_read_term>img{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+  }
+  .alert_stake_read_term>li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    color: #8a8a8a;
+    margin-left: 20px;
+  }
+  .alert_stake_read_term:hover{
+    cursor: pointer;
+  }
+
+@media screen and (max-width: 650px) {
+    .alert_committee_term_title{
+        width: 90%;
+        margin-left: 10px;
+        height: 20px;
+        margin-top: 5px;
+    }
+
+    .alert_committee_term{
+        width: 90%;
+        height: 240px;
+        margin-top: 5px;
+        }
+
+    .alert_committee_term_tip{
+        width: 90%;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .alert_stake_read_term{
+        width: 90%;
+        margin-top: 10px;
+        margin-bottom: -10px;
+      }
+
+    .alert_stake_read_term>li{
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .alert_stake_read_term>img{
+        width: 16px;
+        height: 16px;
+    }
+}

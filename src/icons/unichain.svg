@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg enable-background="new 0 0 20 20" version="1.1" viewBox="0 0 20 20" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<image transform="matrix(.05 0 0 .05 .0213 -.0426)" width="400" height="400" display="none" overflow="visible" xlink:href="../iwEWAS02_400x400.jpg">
+</image>
+<radialGradient id="b" cx="10" cy="9.9362" r="9.9787" gradientUnits="userSpaceOnUse">
+	<stop stop-color="#FA51E4" offset="1.1981e-7"/>
+	<stop stop-color="#F40DB3" offset="1"/>
+</radialGradient>
+<rect x=".021" y="-.043" width="19.957" height="19.957" display="none" fill="url(#b)"/>
+
+	<radialGradient id="a" cx="10" cy="10" r="10" gradientUnits="userSpaceOnUse">
+		<stop stop-color="#FA51E4" offset="1.1981e-7"/>
+		<stop stop-color="#F40DB3" offset="1"/>
+	</radialGradient>
+	<circle cx="10" cy="10" r="10" fill="url(#a)"/>
+	<path d="M18.4,9.84c-4.553,0-8.24-3.691-8.24-8.24H9.84v8.24H1.6v0.32c4.553,0,8.24,3.691,8.24,8.24h0.32   v-8.24h8.24V9.84z" fill="#fff"/>
+
+</svg>

@@ -1,0 +1,215 @@
+.alert_con{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+  z-index: 10;
+}
+
+.alerts_con{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background: #f2f2f2;
+  /* height: 386px; */
+  width: 600px;
+  height: 380px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -300px; 
+  margin-top: -190px;
+  border-radius: 16px;
+  }
+
+.alerts_con_hash{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background: #f2f2f2;
+  /* height: 386px; */
+  width: 600px;
+  height: 480px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -300px; 
+  margin-top: -240px;
+  border-radius: 16px;
+  }
+
+.alert_title{
+  display: flex;
+  justify-content: space-between;
+  width: 560px;
+  align-items: center;
+  flex-direction: row;
+  height: 30px;
+  margin-top: 10px;
+}
+.alert_title>img{
+  width: 22px;
+  height: 22px;
+}
+.alert_title>img:hover{
+  cursor: pointer;
+}
+
+.alert_title_title{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 550;
+}
+.alert_ball_num{
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  align-items: center;
+  flex-direction: row;
+  height: 50px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+.alert_ball_num_name{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #8a8a8a;
+  margin-left: 20px;
+  width: 100%;
+}
+.alert_ball_num_value{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+  color: black;
+  margin-right: 20px;
+  width: 50%;
+  font-size: 16px;
+}
+.alert_ball_num_value>li{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1;
+}
+.alert_ball_item{
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  align-items: center;
+  flex-direction: row;
+  height: 30px;
+  margin-top: 10px;
+}
+.alert_ball_item_name{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #8a8a8a;
+  margin-left: 20px;
+  width: 100%;
+}
+.alert_ball_item_value{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+  color: black;
+  margin-right: 20px;
+  width: 50%;
+  font-size: 16px;
+}
+.alert_ball_button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 480px;
+  margin-top: 40px;
+  background: #CC3100;
+  color: #FFFFFF;
+  border-radius: 10px;
+}
+.alert_ball_button:hover{
+  cursor: pointer;
+}
+.alert_ball_button>img{
+  width: 22px;
+  height: 22px;
+}
+.alert_ball_button_disable{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 480px;
+  margin-top: 40px;
+  background: #CCCCCC;
+  color: #FFFFFF;
+  border-radius: 10px;
+
+}
+  @media screen and (max-width: 650px) {
+    .alerts_con {
+      height: 280px;
+      width: 330px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -165px; 
+      margin-top: -140px;
+      font-size: 12px;
+    }
+    .alerts_con_hash {
+      height: 400px;
+      width: 330px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -165px; 
+      margin-top: -200px;
+      font-size: 12px;
+    }
+    .alert_title{
+      width: 90%;
+    }
+    .alert_title_title{
+      font-size: 14px;
+    }
+    .alert_ball_num{
+      width: 90%;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    .alert_ball_num_value{
+      font-size: 14px;
+      width: 100%;
+    }
+    .alert_ball_item{
+      width: 90%;
+    }
+    .alert_ball_item_value{
+      font-size: 14px;
+    }
+    .alert_ball_button{
+      width: 90%;
+      margin-top: 20px;
+      height: 30px;
+    }
+    .alert_ball_button_disable{
+      width: 90%;
+      margin-top: 20px;
+      height: 30px;
+    }
+  }
