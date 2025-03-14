@@ -6,4 +6,5 @@ Steps are as follows.
 2. cd committee_web
 3. npm install
 4. npm start
+
 Then you can see web page in your local brower at http://localhost:3000/
