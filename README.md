@@ -1,5 +1,6 @@
 # committee_web
 Committee web code used for committee member local committing.
+When dapps encounter extreme situations, such as DDoS attacks, they can use the local system to submit random numbers.
 
 Steps are as follows.
 1. git clone https://github.com/hashball-lab/committee_web.git
